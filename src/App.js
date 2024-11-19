@@ -33,7 +33,7 @@ function App() {
   useEffect(() => {
     axios.defaults.baseURL = baseUrl;
     axios.defaults.headers.common["Authorization"] =
-      "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRjZDdhMDZjLWJiYmUtNDVjNi1iOTI5LTQ2YWFlYmY2ZGIyZCIsImVtYWlsIjoiamF2YXByb2RpZ3k1NkBnbWFpbC5jb20iLCJwYXNzd29yZCI6InRoaXNpc2F0ZXN0cGFzc3dvcmQiLCJuYW1lIjoiS2luZ3NsZXkgVmljdG9yIiwiaWF0IjoxNzI5MDE2NjgzLCJleHAiOjE3MzE2MDg2ODN9.4njxbvm_EkJd8ejZuojoUfQ8NIqSbSTA0z9tbqMZmbE";
+      "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImMyYzRmNGQ3LTAwM2ItNDE4Ny1iY2NiLThmMTUzNjYwNGE3YiIsImVtYWlsIjoiamF2YXByb2RpZ3k1NkBnbWFpbC5jb20iLCJwYXNzd29yZCI6InRoaXNpc2F0ZXN0cGFzc3dvcmQiLCJuYW1lIjoiS2luZ3NsZXkgVmljdG9yIiwiaWF0IjoxNzMyMDA5NjkyLCJleHAiOjE3MzQ2MDE2OTJ9.77dEdo8JExI0JjI7uJWzs9dvLutn2Uh8_WIFO_9q1GI";
     axios.defaults.headers.common["Content-Type"] = "application/json";
   }, []);
 
